@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSConditionals and Loops</title>
+</head>
+<body>
+    <script>
+    var n=1;
+    for(i=1;i<100;i++){
+        if(n%3==0 && n%5!=0){ /*Checking if n is multiple of 3 and not multiple of 5,print Fizz*/
+        console.log(n+"Fizz"); 
+        n+=1;   
+        }
+        else if(n%5==0 && n%3!=0){ /*Checking if n is multiple of 5 and not multiple of 3,print Buzz*/
+        console.log(n+"Buzz"); 
+        n+=1;    
+        }
+        else if(n%3==0 && n%5==0){ /*If n is multiple of both 3 and 5,print FizzBuzz */
+        console.log(n+"FizzBuzz"); 
+        n+=1;    
+        }
+        else{
+        console.log(n);
+        n+=1; 
+        }
+    }
+    </script>    
+</body>
+</html>
+
+
+
+
